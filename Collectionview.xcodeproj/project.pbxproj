@@ -13,6 +13,8 @@
 		757CD7FD29003ABC008340F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757CD7FB29003ABC008340F2 /* Main.storyboard */; };
 		757CD7FF29003ABC008340F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757CD7FE29003ABC008340F2 /* Assets.xcassets */; };
 		757CD80229003ABC008340F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757CD80029003ABC008340F2 /* LaunchScreen.storyboard */; };
+		757CD80F2900490D008340F2 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CD80D2900490D008340F2 /* MyCollectionViewCell.swift */; };
+		757CD8102900490D008340F2 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 757CD80E2900490D008340F2 /* MyCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		757CD7FE29003ABC008340F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		757CD80129003ABC008340F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		757CD80329003ABC008340F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757CD80D2900490D008340F2 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		757CD80E2900490D008340F2 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				757CD7FE29003ABC008340F2 /* Assets.xcassets */,
 				757CD80029003ABC008340F2 /* LaunchScreen.storyboard */,
 				757CD80329003ABC008340F2 /* Info.plist */,
+				757CD80D2900490D008340F2 /* MyCollectionViewCell.swift */,
+				757CD80E2900490D008340F2 /* MyCollectionViewCell.xib */,
 			);
 			path = Collectionview;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				757CD80229003ABC008340F2 /* LaunchScreen.storyboard in Resources */,
 				757CD7FF29003ABC008340F2 /* Assets.xcassets in Resources */,
+				757CD8102900490D008340F2 /* MyCollectionViewCell.xib in Resources */,
 				757CD7FD29003ABC008340F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				757CD7FA29003ABC008340F2 /* ViewController.swift in Sources */,
 				757CD7F629003ABC008340F2 /* AppDelegate.swift in Sources */,
+				757CD80F2900490D008340F2 /* MyCollectionViewCell.swift in Sources */,
 				757CD7F829003ABC008340F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
