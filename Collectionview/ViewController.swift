@@ -8,12 +8,29 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var collectionView : UICollectionView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+        collectionView.delegate = self
+       
+        
+        }
 
 
 }
+
+extension ViewController : UICollectionViewDelegate {
+    
+}
+
+extension ViewController : UICollectionViewDataSource {
+    
+}
+
+extension ViewController : UICollectionViewDelegateFlowLayout {
+    
+}
+
 
