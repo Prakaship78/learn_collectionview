@@ -15,9 +15,23 @@
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="183" height="203"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fuE-Ll-yEO">
+                        <rect key="frame" x="0.0" y="0.0" width="183" height="203"/>
+                    </imageView>
+                </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="fuE-Ll-yEO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="XQ5-Ay-HUm"/>
+                <constraint firstAttribute="bottom" secondItem="fuE-Ll-yEO" secondAttribute="bottom" id="bAj-Ze-x1R"/>
+                <constraint firstAttribute="trailing" secondItem="fuE-Ll-yEO" secondAttribute="trailing" id="lpG-6f-xNO"/>
+                <constraint firstItem="fuE-Ll-yEO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wyS-yZ-kz8"/>
+            </constraints>
             <size key="customSize" width="183" height="203"/>
+            <connections>
+                <outlet property="imageView" destination="fuE-Ll-yEO" id="T8c-GV-vUO"/>
+            </connections>
             <point key="canvasLocation" x="239.23076923076923" y="-33.767772511848342"/>
         </collectionViewCell>
     </objects>
