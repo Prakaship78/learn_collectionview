@@ -13,6 +13,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // customize cell layout
+        let layout = UICollectionViewFlowLayout()
+        layout.itemSize = CGSize(width: 120, height: 120)
+        
+        collectionView.collectionViewLayout = layout
         
         // register nib
         collectionView.register(MyCollectionViewCell.nib(), forCellWithReuseIdentifier: MyCollectionViewCell.identifier)
@@ -51,8 +56,10 @@ extension ViewController : UICollectionViewDataSource {
 
 
 // decides margin and padding between each cell
-//extension ViewController : UICollectionViewDelegateFlowLayout {
-//
-//}
+extension ViewController : UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSizeMake( 120, 120)
+    }
+}
 
 
